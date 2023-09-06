@@ -1,0 +1,25 @@
+.thumbnail {
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px #000000;
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    transition: transform 0.3s;
+    /* Durasi animasi saat hover */
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 5px 5px #dadada;
+    /* Mengubah skala card saat hover */
+}

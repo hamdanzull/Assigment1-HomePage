@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png" />
+    <title>CodeTutorial</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-info navbar-info fixed-top">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="#">
+            <div class="d-flex align-items-center">
+                <!-- <img src="images/Asset 3.png" class="rounded-circle" alt="logo" style="width: 40px;">
+                <p class="ml-2 mb-0 font-weight-bold text-light">Portofolio</p> -->
+                <img src="images/logo.png" class="ml-5" alt="logo" style="height: 30px;">
+            </div>
+        </a>
+
+        <!-- LINKS -->
+        <ul class="navbar-nav navbar-collapse ml-3">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="Portofolio/index.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="Portofolio/index.html">Portofolio</a>
+            </li>
+            <!-- DROPDOWN -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tutorial
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">HTML</a>
+                    <a class="dropdown-item" href="#">CSS</a>
+                    <a class="dropdown-item" href="#">Javascript</a>
+                    <a class="dropdown-item" href="#">JQuery</a>
+                    <a class="dropdown-item" href="#">Codeigniter</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav navbar-collapse justify-content-end mr-5">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">
+                    <button class="btn btn-warning">Daftar</button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- <div class="container-xl" style="margin-top:80px;">
+
+        <img src="images/hacktiv8-kelas.png" class="img-fluid rounded mx-auto d-block"
+            style="width: 1280px; height: 350px; object-fit: cover;">
+        <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Haloo</h1>
+    </div> -->
+
+    <div class="thumbnail container-xl">
+        <img src="images/kelas.png" class="img-fluid rounded mx-auto d-block"
+            style="width: 1280px; height: 350px; object-fit: cover;">
+
+        <div class="text-shadow">
+            <h1 class="text-light display-4 font-weight-bold">Selamat datang di CodeTutorial!</h1>
+            <p class="text-light">Tutorial pemrograman bahasa Indonesia.</p>
+            <button class="btn btn-info">Mulai Belajar!</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container d-flex align-items-stretch  mt-4"> <!-- stretch => Agar tinggi tiap card sama -->
+
+        <div class="card">
+            <img class="card-img-top" src="images/code.jpg" alt="Card image cap">
+            <div class="card-body d-flex flex-column"> <!-- Agar button rata -->
+
+                <h5 class="card-title">Tutorial HTML</h5>
+                <p class="card-text">HTML adalah bahasa dasar untuk membuat halaman web.
+                    Digunakan untuk struktur dan tampilan konten web, dengan tag-tag yang mendefinisikan elemen seperti
+                    teks, gambar, tautan, dan tabel.</p>
+                <a href="#" class="btn btn-primary mt-auto">Lihat Tutorial</a>
+            </div>
+        </div>
+
+        <div class="card ml-3">
+            <img class="card-img-top" src="images/code.jpg" alt="Card image cap">
+            <div class="card-body d-flex flex-column"> <!-- Agar button rata -->
+
+                <h5 class="card-title">Tutorial CSS</h5>
+                <p class="card-text">CSS adalah bahasa yang digunakan untuk mengatur tampilan dan desain
+                    halaman web.
+                    Dengan CSS, Anda dapat mengendalikan warna, font, margin, padding, layout, dan elemen desain
+                    lainnya.</p>
+                <a href="#" class="btn btn-primary mt-auto">Lihat Tutorial</a>
+            </div>
+        </div>
+
+        <div class="card ml-3">
+            <img class="card-img-top" src="images/code.jpg" alt="Card image cap">
+            <div class="card-body d-flex flex-column"> <!-- Agar button rata -->
+                <h5 class="card-title">Tutorial JavaScript</h5>
+                <p class="card-text">JavaScript adalah bahasa pemrograman yang digunakan untuk
+                    mengembangkan fitur interaktif dan dinamis pada situs web.</p>
+                <a href="#" class="btn btn-primary mt-auto">Lihat Tutorial</a>
+            </div>
+        </div>
+
+        <div class="card ml-3">
+            <img class="card-img-top" src="images/code.jpg" alt="Card image cap">
+            <div class="card-body d-flex flex-column"> <!-- Agar button rata -->
+
+                <h5 class="card-title">Tutorial JQuery</h5>
+                <p class="card-text">JQuery juga merupakan library JavaScript yang dapat mempercepat proses
+                    pembuatan website dengan sintaks yang tidak terlalu rumit, kodenya ringkas, dan fiturnya lengkap.
+                </p>
+                <a href="#" class="btn btn-primary mt-auto">Lihat Tutorial</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer sticky-bottom bg-secondary mt-4" style="height: 55px;">
+        <div class="container d-flex justify-content-center">
+            <p class="text-light mt-3 mb-0">Copyright &copy; 2023 Hamdan</p>
+        </div>
+    </footer>
+</body>
+
+</html>
